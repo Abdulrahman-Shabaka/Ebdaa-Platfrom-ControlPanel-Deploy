@@ -95,6 +95,13 @@ button {
     border-radius: 7px;
 }
 
+.p-dropdown ul {
+    padding-left: 0rem !important;
+}
+.p-datatable ul {
+    padding-left: 0rem !important;
+}
+
 @media (max-width: 480px) {
     .MobCard {
         color: yellow !important;
