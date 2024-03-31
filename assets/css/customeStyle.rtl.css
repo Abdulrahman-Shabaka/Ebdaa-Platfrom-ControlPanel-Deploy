@@ -35,3 +35,7 @@ p-splitbutton {
 
     border-radius: 9px 0px 0px 9px;
 }
+
+.clinics-radius {
+    border-radius: 0 14px 0 0;
+}
