@@ -98,6 +98,7 @@ button {
 .p-dropdown ul {
     padding-left: 0rem !important;
 }
+
 .p-datatable ul {
     padding-left: 0rem !important;
 }
@@ -176,3 +177,30 @@ button {
 }
 
 
+app-header {
+    width: 100% !important;
+    display: ruby;
+    text-align: center !important;
+    position: fixed;
+    top: 0;
+    z-index: 80000;
+}
+
+ul {
+    padding-left: 0rem !important;
+}
+
+p-menubar * {
+    background-color: transparent;
+    border: none;
+}
+
+p-menubar [role="menubar"] {
+    background-color: transparent;
+    border: none;
+}
+
+p-menubar ul li [role="menuitem"] {
+    background-color: white;
+    border: 1;
+}
