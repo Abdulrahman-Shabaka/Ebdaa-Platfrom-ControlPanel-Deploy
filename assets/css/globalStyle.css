@@ -122,16 +122,21 @@ button {
     top: 0;
     position: fixed;
     z-index: 1000000000 !important;
-    background: rgba(86, 87, 86, 0.5);
+    background: rgba(16, 17, 16, 0.873);
 }
 
 .page-overlay-wrapper .svg-spinner {
     position: fixed;
     color: white;
     top: 30%;
-    right: 45%;
+    right: 43%;
     z-index: 100000000 !important;
     animation: bouncing 0.5s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+
+.svg-spinner h3 {
+    margin: 48px;
+    color: white;
 }
 
 .btn-xs.btn-info {
@@ -195,8 +200,9 @@ p-menubar * {
     border: none;
 }
 
-p-menubar [role="menubar"] {
-    background-color: transparent;
+p-menubar .p-menuitem-link-active {
+    background-color: #36d1e2;
+    border-radius: 3px;
     border: none;
 }
 
