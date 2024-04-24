@@ -200,8 +200,12 @@ p-menubar * {
     border: none;
 }
 
+p-menubar .p-menuitem-link-active span {
+    color: #0099aa;
+    font-weight: bold;
+}
+
 p-menubar .p-menuitem-link-active {
-    background-color: #36d1e2;
     border-radius: 3px;
     border: none;
 }
@@ -209,4 +213,21 @@ p-menubar .p-menuitem-link-active {
 p-menubar ul li [role="menuitem"] {
     background-color: white;
     border: 1;
+}
+
+p-menubar p-menubarsub .p-element {
+    margin-bottom: -8px;
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-xxl,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        padding: 0 5px !important;
+    }
 }
