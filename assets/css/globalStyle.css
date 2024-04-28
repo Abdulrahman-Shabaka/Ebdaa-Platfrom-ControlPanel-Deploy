@@ -232,7 +232,6 @@ p-menubar p-menubarsub .p-element {
     }
 }
 
-
 [data-bs-theme="dark"] {
     .dropdown * {
         color: white;
