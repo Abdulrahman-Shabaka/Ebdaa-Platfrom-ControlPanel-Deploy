@@ -218,7 +218,11 @@ p-menubar ul li [role="menuitem"] {
 p-menubar p-menubarsub .p-element {
     margin-bottom: -8px;
 }
-
+.p-selectbutton .p-button.p-highlight {
+    background: #27929D;
+    border-color: #27929D;
+    color: #ffffff;
+}
 @media (min-width: 992px) {
 
     .container,
