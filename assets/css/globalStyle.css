@@ -218,11 +218,22 @@ p-menubar ul li [role="menuitem"] {
 p-menubar p-menubarsub .p-element {
     margin-bottom: -8px;
 }
+
 .p-selectbutton .p-button.p-highlight {
-    background: #27929D;
-    border-color: #27929D;
+    background: #60b4c0;
+    border-color: #60b4c0;
     color: #ffffff;
 }
+
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: #60b4c0;
+    border-color: #60b4c0;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
 @media (min-width: 992px) {
 
     .container,
