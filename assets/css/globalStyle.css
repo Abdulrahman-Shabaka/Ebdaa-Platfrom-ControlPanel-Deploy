@@ -188,7 +188,7 @@ app-header {
     text-align: center !important;
     position: fixed;
     top: 0;
-    z-index: 80000;
+    z-index: 915;
 }
 
 ul {
