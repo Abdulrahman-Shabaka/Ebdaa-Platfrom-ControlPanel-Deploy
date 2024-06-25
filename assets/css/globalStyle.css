@@ -232,7 +232,11 @@ p-menubar p-menubarsub .p-element {
     color: #ffffff;
     border-radius: 10px;
 }
-
+ .circular-image img {
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+ }
 
 @media (min-width: 992px) {
 
