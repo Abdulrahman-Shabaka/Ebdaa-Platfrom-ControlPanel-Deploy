@@ -19,6 +19,10 @@
   <!-- <body root id="kt_body" class="mat-typography" direction="rtl" dir="rtl" style="direction: rtl"></body> -->
   <!--begin::Theme mode setup on page load-->
   <script>
+    var lang = localStorage.getItem('language');
+    if(lang == undefined){
+      localStorage.setItem('language','ar')
+    }
     if (document.documentElement) {
       var defaultThemeMode = "system";
       var hasKTName = document.body.hasAttribute("data-kt-name");
@@ -46,5 +50,5 @@
         </div>
       </div>
     </div> -->
-<script src="runtime.98e71ae4ce2093ba.js" type="module"></script><script src="polyfills.2ea7919a17d2e4ac.js" type="module"></script><script src="main.b466c6cacc564adb.js" type="module"></script></body>
+<script src="runtime.98fda6f79eae1ce1.js" type="module"></script><script src="polyfills.2ea7919a17d2e4ac.js" type="module"></script><script src="main.b466c6cacc564adb.js" type="module"></script></body>
 </html>
