@@ -300,3 +300,8 @@ p-menubar p-menubarsub .p-element {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 }
+.custom-swal-bg {
+  background-color: #ff0000;
+  color: #ff0000;
+
+}
