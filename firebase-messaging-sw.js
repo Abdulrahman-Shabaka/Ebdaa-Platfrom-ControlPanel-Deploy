@@ -15,6 +15,11 @@ firebase.initializeApp({
 
 var messaging = firebase.messaging();
 
+
+firebase.initializeApp(firebaseConfig);
+
+
+
 messaging.onBackgroundMessage(function (payload) {
   console.log('[firebase-messaging-sw.js] Received background message ', payload);
 
@@ -23,6 +28,5 @@ messaging.onBackgroundMessage(function (payload) {
     body: payload.notification.body,
     icon: '/assets/icons/icon-72x72.png'
   };
-
   self.registration.showNotification(notificationTitle, notificationOptions);
 });
